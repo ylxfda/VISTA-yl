@@ -28,6 +28,7 @@
                 "--nnodes", "1",
                 "--nproc_per_node", "8",
                 "-m", "scripts.train_finetune",
+                "run",
                 "--config_file", "['configs/finetune/train_finetune_word.yaml']"
             ]
         },
