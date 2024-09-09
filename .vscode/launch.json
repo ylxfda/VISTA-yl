@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+
+        {
+            "name": "finetune",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/vista3d/",
+            "program": "/data/home/yli/venvs/vista3d/bin/torchrun",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "2",
+                // "PYTHONPATH": "${workspaceFolder}/vista3d/",
+            },
+            "args": [
+                "--nnodes", "1",
+                "--nproc_per_node", "8",
+                "-m", "scripts.train_finetune",
+                "--config_file", "['configs/finetune/train_finetune_word.yaml']"
+            ]
+        },
+    ]
+}

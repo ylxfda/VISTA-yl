@@ -101,7 +101,7 @@ temp/
 *.swp
 .DS_Store
 # VSCode
-.vscode/
+# .vscode/
 *.zip
 # profiling results
 *.prof
