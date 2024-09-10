@@ -21,12 +21,14 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {
-                "CUDA_VISIBLE_DEVICES": "2",
+                // "CUDA_VISIBLE_DEVICES": "0",
                 // "PYTHONPATH": "${workspaceFolder}/vista3d/",
+                // "OMP_NUM_THREADS": "1",
+                // "NCCL_DEBUG": "INFO",
             },
             "args": [
                 "--nnodes", "1",
-                "--nproc_per_node", "8",
+                "--nproc_per_node", "4",
                 "-m", "scripts.train_finetune",
                 "run",
                 "--config_file", "['configs/finetune/train_finetune_word.yaml']"
