@@ -1,0 +1,233 @@
+{
+    "training": [
+        {
+            "image": "imagesTr/cranialIDplanning00045_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00045.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00008_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00008.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00021_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00021.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00027_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00027.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00038_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00038.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00005_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00005.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00001_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00001.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00004_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00004.nii.gz",
+            "fold": 0
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00030_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00030.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00010_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00010.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00000_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00000.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00040_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00040.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00033_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00033.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00014_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00014.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00009_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00009.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00017_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00017.nii.gz",
+            "fold": 1
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00044_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00044.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00031_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00031.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00036_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00036.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00016_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00016.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00018_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00018.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00037_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00037.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00003_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00003.nii.gz",
+            "fold": 2
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00026_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00026.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00042_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00042.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00011_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00011.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00019_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00019.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00023_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00023.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00012_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00012.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00043_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00043.nii.gz",
+            "fold": 3
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00032_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00032.nii.gz",
+            "fold": 4
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00034_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00034.nii.gz",
+            "fold": 4
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00006_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00006.nii.gz",
+            "fold": 4
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00020_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00020.nii.gz",
+            "fold": 4
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00002_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00002.nii.gz",
+            "fold": 4
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00007_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00007.nii.gz",
+            "fold": 4
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00024_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00024.nii.gz",
+            "fold": 4
+        }
+    ],
+    "testing": [
+        {
+            "image": "imagesTs/cranialIDplanning00041_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00041.nii.gz"            
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00013_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00013.nii.gz"
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00015_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00015.nii.gz"
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00022_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00022.nii.gz"
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00029_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00029.nii.gz"
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00035_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00035.nii.gz"
+        },
+        {
+            "image": "imagesTs/cranialIDplanning00025_0000.nii.gz",
+            "label": "labelsTs/cranialIDplanning00025.nii.gz"
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00039_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00039.nii.gz"
+        },
+        {
+            "image": "imagesTr/cranialIDplanning00028_0000.nii.gz",
+            "label": "labelsTr/cranialIDplanning00028.nii.gz"
+        }
+    ],
+    "label_dict": {
+        "1": "skull"
+    },
+    "original_label_dict": {
+        "1": "skull"
+    }
+}

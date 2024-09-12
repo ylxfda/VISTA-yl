@@ -31,7 +31,8 @@
                 "--nproc_per_node", "4",
                 "-m", "scripts.train_finetune",
                 "run",
-                "--config_file", "['configs/finetune/train_finetune_word.yaml']"
+                // "--config_file", "['configs/finetune/train_finetune_word.yaml']",
+                "--config_file", "['configs/finetune/train_finetune_cci50.yaml']",
             ]
         },
     ]
