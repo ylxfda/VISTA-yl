@@ -93,7 +93,7 @@ def run(config_file: Optional[Union[str, Sequence[str]]] = None, **override):
     )  # save all val-checkpoint
     if world_size == 1 or dist.get_rank() == 0:
         config_yaml = os.path.join(bundle_root, "configs.yaml")
-        ConfigParser.export_config_file(
+        ConfigParser.export_config_file( # YL: export config file to the boundle root
             parser.get(), config_yaml, fmt="yaml", default_flow_style=None
         )
     if random_seed is not None and (
@@ -167,7 +167,7 @@ def run(config_file: Optional[Union[str, Sequence[str]]] = None, **override):
         )
         del pretrained_ckpt
     else:
-        logger.debug("Training from scratch")
+        logger.debug("Training from scratch") # YL: finetune from scratch, check here
 
     # training hyperparameters - sample
     num_images_per_batch = parser.get_parsed_content("num_images_per_batch")
@@ -305,7 +305,7 @@ def run(config_file: Optional[Union[str, Sequence[str]]] = None, **override):
     )
 
     # ---------  Start training  ---------
-    """ Notes: The training script is directly modified from auto3dseg.
+    """ Notes: The training script is directly modified from auto3dseg. # YL: where how to reduce the memory usage
         To increase speed, the training script is not based on epoch, but based on validation rounds.
         In each batch, num_images_per_batch=2 whole 3D images are loaded into CPU for data transformation
         num_patches_per_image=2*num_patches_per_iter is extracted from each 3D image, in each iteration,

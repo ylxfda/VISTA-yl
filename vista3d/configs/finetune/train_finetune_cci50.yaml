@@ -6,11 +6,11 @@ label_set: [0,1]
 mapped_label_set: [0,120]
 model: "vista3d_segresnet_d"
 use_folds: true
-data_file_base_dir: '/data/DataSSD3/yli/data/nnunet_raw/nnunet_cranialid/Dataset011_cranialid/'
+data_file_base_dir: '/data/DataSSD3/yli/data/nnunet_raw/nnunet_cranialid/Dataset011_cranialid_nii/'
 data_list_file_path: './data/external/CranialID50_5_folds.json'
 ckpt_path: $@bundle_root + '/model_fold' + str(@fold)
-drop_label_prob: 0
-drop_point_prob: 1
+drop_label_prob: 0.25
+drop_point_prob: 0.25
 finetune: {activate: true, exclude_vars: null, pretrained_ckpt_name: $'/workspace/vista3d/models/model.pt'}
 fold: 0
 image_key: image
@@ -26,7 +26,7 @@ lr_scheduler: {_target_: monai.optimizers.WarmupCosineSchedule, optimizer: $@opt
 max_backprompt: null
 max_foreprompt: null
 ignore_labelset: false
-max_point: 3
+max_point: 5
 max_prompt: null
 num_epochs: 200
 freeze_epoch: 0
@@ -40,7 +40,7 @@ num_patches_per_iter: 1
 optimizer: {_target_: torch.optim.AdamW, lr: '@learning_rate', weight_decay: 1.0e-05}
 output_classes: 133
 overlap_ratio: 0.625
-patch_size: [224, 224, 144]
+patch_size: [128, 128, 128]
 random_seed: 0
 resample_to_spacing: [1., 1., 1.]
 skip_iter_prob: 1

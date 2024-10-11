@@ -61,7 +61,8 @@ class InferClass:
         CONFIG["handlers"]["file"]["filename"] = f"{output_path}/log.log"
         logging.config.dictConfig(CONFIG)
         self.device = torch.device("cuda:0")
-        self.sam = sam_model_registry["vit_h"](checkpoint="sam_vit_h_4b8939.pth").to(
+        # self.sam = sam_model_registry["vit_h"](checkpoint="sam_vit_h_4b8939.pth").to(
+        self.sam = sam_model_registry["vit_b"](checkpoint="medsam_vit_b.pth").to(            
             self.device
         )
         self.model = SamPredictor(self.sam)
